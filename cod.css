@@ -1,0 +1,118 @@
+body{
+  background-image: url("cod.img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+/* Use a box-sizing property to include padding and border in the element's total width and height */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+}
+
+/* Use a container class to center and limit the width of the content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+/* Use a navbar class to style the navigation bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: lightcyan;
+  height: 70px;
+  max-width: 850px;
+  justify-content: center;
+  border-radius: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  opacity:0.7;
+}
+
+/* Use a logo class to style the team name */
+.logo {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: serif;
+  text-decoration: none;
+  margin-left: 20px;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/* Use a form class to style the form */
+.form {
+  background-color: lightcyan;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  opacity: 0.7;
+}
+
+/* Use an input-group class to style the input groups */
+.input-group {
+  margin-bottom: 20px;
+  margin-left: 30%;
+}
+
+/* Use a label element to style the labels */
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+/* Use an input element to style the inputs */
+input {
+  display: block;
+  width: 50%;
+  height: 40px;
+  border-top-color: black;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+/* Use a submit-btn class to style the submit button */
+.submit-btn {
+  display: block;
+  width: 35%;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  background-color: rgb(87, 193, 236);
+  border-radius: 5px;
+  margin-top: 5%;
+  border-radius: 10px;
+  margin-left: 30%;
+  padding-bottom: 35px;
+  opacity: 0.7;
+  
+}
+
+/* Use a hover effect to change the background color of the submit button */
+.submit-btn:hover {
+  background-color: #04AA6D;
+
+}
+.by{
+  padding-left: 80%;
+  font-weight: bold;
+  color: white;
+}
