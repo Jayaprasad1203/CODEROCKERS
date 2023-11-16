@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="cod.css">
+</head>
+<body>
+  <script src="cod.js"></script>
+
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo"><h3>Registration Form</h3></a>
+        
+      </nav>
+      <form class="form" onsubmit="return validateForm()">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Set Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </div>
+        <button class="submit-btn" type="submit">Register</button>
+      </form>
+    </div>
+    <div>
+      <br>
+        <p class="by">by CODEROCKERZ</p>
+    </div>
+    <script src="cod.js"></script>
+  </body>
+  
+  
+</html>
