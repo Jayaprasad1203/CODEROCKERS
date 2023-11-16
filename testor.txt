@@ -1,0 +1,35 @@
+
+											#CODEROCKERS
+
+
+
+	Test 1:
+		INPUT : 
+			Name  		: Janagan
+			Email 		: janagangmail.com
+			Set Password 	: 123456
+			Confirm password: 123456
+		
+		OUTPUT:
+			Alert! PLease include an '@'in the e mail address,'janagan.com'is misssing an '@'
+
+
+	Test 2:
+		INPUT :
+			Name  		: Janagan
+			Email 		: janagan@gmail.com
+			Set Password 	: 123456
+			Confirm password: 123654
+		
+		OUTPUT:
+			Alert The passwords does not match!
+
+	Test 3:
+		INPUT :
+			Name  		: muralisan
+			Email 		: jmuralisan2005@gmail.com
+			Set Password 	: 123456
+			Confirm password: 123456
+		
+		OUTPUT:
+			Alert registration successful
